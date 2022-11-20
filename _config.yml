@@ -8,7 +8,7 @@ subtitle: '为世上的所有美好而战'
 description: 'JouderMin'
 keywords:
 author: JouderMin
-language: en
+language: zh-cn
 timezone: ''
 
 # URL
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: volantis
+theme: redefine
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
