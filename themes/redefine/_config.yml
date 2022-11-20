@@ -16,10 +16,10 @@ style:
   primary_color: "#005080"
 
   # Avatar (You can use local image or image external link)
-  avatar: /images/avatar.svg # avatar of the author
+  avatar: /images/jouder.svg # avatar of the author
 
   # Favicon (You can use local image or image external link)
-  favicon: /images/avatar.svg # favicon of the site
+  favicon: /images/jouder.svg # favicon of the site
 
   # Article image align position
   article_img_align: center # value: left | center
@@ -50,7 +50,7 @@ style:
     title_color:
       light: "#fff" # first screen title color (light mode)
       dark: "#323739" # first screen title color (dark mode)
-    description: Theme Redefine # the title in the middle of the first screen
+    description: 为世上的所有美好而战 # the title in the middle of the first screen
 
   # Scroll style settings
   scroll:
@@ -63,7 +63,7 @@ style:
 # Social contact link
 # ---------------------------------------------------------------------------------------
 social_contact: # social contact icons in the first screen, you can add more by using fontawesome icon names
-  enable: true
+  enable: false
   links:
     github: # your GitHub URL
     instagram: # your Instagram URL
@@ -119,7 +119,6 @@ post:
 # ---------------------------------------------------------------------------------------
 code_copy:
   enable: true
-  style: mac
 
 # ---------------------------------------------------------------------------------------
 # Table of Contents in the Sidebar
@@ -128,7 +127,7 @@ toc:
   enable: true
 
   # Automatically add list number to toc.
-  number: false
+  number: true
 
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
   expand_all: true
@@ -160,7 +159,7 @@ website_count:
 # See: https://github.com/theme-next/hexo-generator-searchdb
 # ---------------------------------------------------------------------------------------
 local_search:
-  enable: false
+  enable: true
   preload: true # Preload the search data when the page loads
 
 # ---------------------------------------------------------------------------------------
