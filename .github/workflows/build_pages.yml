@@ -43,7 +43,7 @@ jobs:
         run: |
           npm i yarn -g
           yarn
-          yarn build
+          yarn deploy
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v1.0.5
         with:
