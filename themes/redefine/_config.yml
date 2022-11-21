@@ -6,7 +6,7 @@ base_info:
   author: JouderMin # Author name
   url: https://joudermin.github.io # Site url
   # Logo image (You can use local image, image external link or don’t fill)
-  logo_img: # logo image on the left of the navigation bar
+  logo_img: /images/jouder.svg # logo image on the left of the navigation bar
 
 # ---------------------------------------------------------------------------------------
 # Theme style settings
@@ -63,13 +63,13 @@ style:
 # Social contact link
 # ---------------------------------------------------------------------------------------
 social_contact: # social contact icons in the first screen, you can add more by using fontawesome icon names
-  enable: false
+  enable: true
   links:
-    github: # your GitHub URL
+    github: https://github.com/JouderMin # your GitHub URL
     instagram: # your Instagram URL
     zhihu: # your ZhiHu URL
     twitter: # your twitter URL
-    email: # your email
+    email: joudermin@foxmail.com # your email
     # ...... # you can add more
 
 # ---------------------------------------------------------------------------------------
